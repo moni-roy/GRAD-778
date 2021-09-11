@@ -45,3 +45,18 @@ Students will be able to use Linux, R, Python, C++, Batch Processing techniques,
 Students will become versed in basic vocabulary and procedures associated with the tools listed in the course
 Students will be able to install, configure, use and obtain results from the tools associated with each workshop.
 Students will be able to determine what types of computational tools might be useful in their own research.
+
+## Topics Outline
+
+|Week|Course Title|Link|
+|--|--|--|
+| W1 | Data Operations and Programming in R (Part 1)|[R Bootcamp](<https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp>) |
+| W2 | Data Operations and Programming in R (Part 2)| |
+| W3 | Introduction to Linux | |
+| W4 | Documentation and reproducibility | |
+| W5 | C++ Programming | |
+| W6 | Introduction to Python | |
+| W7 | Batch Processing in Pronghorn | |
+| W8 | Advanced Pronghorn Utilization | |
+| W9 | Cloud Computing | |
+| W10|  Version Control | |
