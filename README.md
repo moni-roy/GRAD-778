@@ -42,15 +42,15 @@ Students will be able to determine what types of computational tools might be us
 
 ## Topics Outline
 
-| Week | Course Title                                  | Link                                                                      |
-| ---- | --------------------------------------------- | ------------------------------------------------------------------------- |
-| W1   | Data Operations and Programming in R (Part 1) | [R Bootcamp](https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp) |
-| W2   | Data Operations and Programming in R (Part 2) | [R Bootcamp](https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp) |
+| Week | Course Title                                  | Link                                                                                      |
+| ---- | --------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| W1   | Data Operations and Programming in R (Part 1) | [R Bootcamp](https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp)                 |
+| W2   | Data Operations and Programming in R (Part 2) | [R Bootcamp](https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp)                 |
 | W3   | Introduction to Linux                         | [Linux Introduction](<https://github.com/moni-roy/GRAD-778/tree/main/Linux Introduction>) |
-| W4   | Documentation and reproducibility             |                                                                           |
-| W5   | C++ Programming                               |                                                                           |
-| W6   | Introduction to Python                        |                                                                           |
-| W7   | Batch Processing in Pronghorn                 |                                                                           |
-| W8   | Advanced Pronghorn Utilization                |                                                                           |
-| W9   | Cloud Computing                               |                                                                           |
-| W10  | Version Control                               |                                                                           |
+| W4   | Documentation and reproducibility             | [Rep-Res-Workshop](https://github.com/moni-roy/GRAD-778/tree/main/Rep-Res-Workshop)       |
+| W5   | C++ Programming                               |                                                                                           |
+| W6   | Introduction to Python                        |                                                                                           |
+| W7   | Batch Processing in Pronghorn                 |                                                                                           |
+| W8   | Advanced Pronghorn Utilization                |                                                                                           |
+| W9   | Cloud Computing                               |                                                                                           |
+| W10  | Version Control                               |                                                                                           |

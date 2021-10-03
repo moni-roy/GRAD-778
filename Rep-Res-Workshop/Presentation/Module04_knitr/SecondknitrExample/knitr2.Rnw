@@ -1,0 +1,133 @@
+\documentclass{article}
+
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{geometry}
+\geometry{legalpaper, margin=2in}
+
+
+\title{My Second \texttt{knitr} Document}
+\author{Jane Doe}
+\date{\today}
+
+\begin{document}
+
+<<GlobalOptions,include=FALSE>>=
+options(digits=2)
+@
+\maketitle
+
+\section{Introduction}
+We want to know if iris sepal length is correlated with iris petal width or petal length.
+
+\section{Methods}
+To examine the relationship between iris sepal length and petal width and petal length, we used the following linear regression model:
+
+\begin{align}
+y_i&=\beta_0+\beta_1x_{i,1}+\beta_2x_{i,2}+\epsilon_i, \notag \\
+\epsilon_i &\sim \text{Normal}(0,\sigma^2), \notag
+\end{align}
+
+where $y_i$ represents iris sepal length for the $i=1,\ldots,n$ flowers, $x_{i,1}$ represents the $i^{th}$ flower's average petal width, and $x_{i,2}$ represents the $i^{th}$ flower's average petal length. To estimate model parameters, we used \texttt{R} statistical software. The \texttt{R} script is shown, below.
+\subsection{\texttt{R} script for iris data}
+
+<<chunk1, echo=TRUE,eval=TRUE,cache=TRUE>>=
+
+###
+### Load the datasets library which contains the iris data
+###
+
+library(datasets)
+data(iris)
+
+###
+### set the response variable to the object called "y"
+###
+
+y=iris$Sepal.Length
+
+###
+### Define the predictor variables
+###
+
+x1=iris$Petal.Length
+x2=iris$Petal.Width
+
+###
+### Fit the linear model to the data
+###
+
+linMod=lm(y~x1+x2)
+betas=coef(linMod)
+std.er=coef(summary(linMod))[, 2]
+sigma=sqrt(deviance(linMod)/df.residual(linMod))
+@
+
+\section{Results}
+\subsection{Parameter Estimates}
+The estimated intercept of our model, $\beta_0$, was \Sexpr{betas[1]}. Thus, the expected sepal length for an iris with mean petal length equal to zero, and mean petal width equal to zero was \Sexpr{betas[1]}. The estimated regression parameter for petal length, $\beta_1$,  was \Sexpr{betas[2]}. Thus, as petal length increased by one unit, the expected value of sepal length incresed by \Sexpr{betas[2]}. 
+
+Our fitted model is:
+\begin{align}
+y_i&=\Sexpr{betas[1]}+\Sexpr{betas[2]}x_{i,1}+\Sexpr{betas[3]}x_{i,2}+\epsilon_i, \notag \\
+\epsilon_i &\sim \text{Normal}(0,\Sexpr{sigma}^2), \notag
+\end{align}
+
+\subsection{Figures}
+To see the marginal relationship between $y_i$ and $x_{i,1}$ and $x_{i,2}$, see Fig. \ref{fig:marginals}
+
+\begin{figure}
+<<chunk2, echo=TRUE,eval=TRUE>>=
+
+###
+### Plot the relationship between the response variable
+### and each predictor variable
+###
+
+par(mfrow=c(2,1),mar=c(4,4,2,2))
+
+## Top figure
+plot(x1,y)
+x1.pred=seq(range(x1)[1],range(x1)[2],length.out=10)
+x2.mean=mean(x2)
+
+y.pred1=betas[1]+betas[2]*x1.pred+betas[3]*x2.mean
+lines(x1.pred,y.pred1,col=2,lwd=3)
+
+## Bottom figure
+plot(x2,y)
+x1.mean=mean(x1)
+x2.pred=seq(range(x2)[1],range(x2)[2],length.out=10)
+
+y.pred2=betas[1]+betas[2]*x1.mean+betas[3]*x2.pred
+lines(x2.pred,y.pred2,col=2,lwd=3)
+
+@
+
+\caption{Marginal plot of the relationship between response variable and predictors.}
+\label{fig:marginals}
+\end{figure}
+
+\subsection{Tables}
+To see the parameter estimates and associated standard errors see Table \ref{tab:estimates}.
+
+\begin{table}[H]
+%\centering
+\caption{Parameter estimates and SE of parameters from our fitted model.}
+\begin{tabular}[t]{ l l l }
+\hline
+Parameter & Estimate & SE \\
+\hline
+ $\beta_0$ & \Sexpr{betas[1]} & \Sexpr{std.er[1]} \\ 
+ $\beta_1$ & \Sexpr{betas[2]} & \Sexpr{std.er[2]} \\  
+ $\beta_2$ & \Sexpr{betas[3]} & \Sexpr{std.er[3]} \\
+ $\sigma^2$ & \Sexpr{sigma}$^2$ & - \\
+ \hline
+ \end{tabular}
+\label{tab:estimates}
+\end{table}
+
+\section{Discussion}
+Discuss the results here...
+
+\end{document}

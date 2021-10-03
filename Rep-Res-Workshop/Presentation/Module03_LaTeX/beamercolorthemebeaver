@@ -1,0 +1,65 @@
+% Based on beamercolorthemebeaver.sty, Copyright 2004 by Madhusudan Singh <madhusudan.singh@gmail.com>
+% Modified by Paul J. Hurtado on 3/28/2016
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\mode<presentation>
+
+% Colors from http://www.unr.edu/marcom/university-identity/logos/approved-colors
+\definecolor{UNRblue}{RGB}{0, 46, 98}  
+\definecolor{UNRlightblue}{HTML}{428BCA} % from website link color
+\definecolor{UNRsilver}{RGB}{128, 127, 132}
+\definecolor{UNRgrey}{RGB}{142, 146, 149}
+
+% Main colors: 
+\colorlet{maindark}{UNRblue}
+\colorlet{mainlight}{UNRlightblue} 
+
+% Shades of gray
+\colorlet{grey0}{UNRsilver} % Base to lighten...
+\colorlet{bgrey1}{grey0!40}
+\colorlet{bgrey2}{grey0!25}
+\colorlet{bgrey3}{grey0!10}
+
+\setbeamercolor{section in toc}{fg=black,bg=bgrey1}
+
+\setbeamercolor{alerted text}{fg=maindark}
+\setbeamercolor*{palette primary}{fg=maindark!90!white,bg=bgrey1}
+\setbeamercolor*{palette secondary}{fg=maindark!60!white,bg=bgrey2}
+\setbeamercolor*{palette tertiary}{bg=maindark!80!white,fg=bgrey2}
+\setbeamercolor*{palette quaternary}{fg=maindark,bg=bgrey3}
+
+\setbeamercolor*{sidebar}{fg=maindark,bg=bgrey1}
+
+\setbeamercolor*{palette sidebar primary}{fg=maindark}
+\setbeamercolor*{palette sidebar secondary}{fg=maindark!50!black}
+\setbeamercolor*{palette sidebar tertiary}{fg=maindark!50!black}
+\setbeamercolor*{palette sidebar quaternary}{fg=maindark}
+
+\setbeamercolor{titlelike}{parent=palette primary}
+\setbeamercolor{frametitle}{bg=white}
+\setbeamercolor{frametitle right}{bg=grey0}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\setbeamercolor{item projected}{bg=maindark, fg=bgrey3}
+
+% Since beamer class loads hyperref, set link colors
+\hypersetup{colorlinks=TRUE, linkcolor=maindark, urlcolor=mainlight, citecolor=maindark, filecolor=mainlight}
+
+% Because they shouldn't exist...
+%\setbeamertemplate{navigation symbols}{} 
+
+% More contrast for theorem environment:
+\setbeamercolor{block title}{fg=maindark,bg=bgrey2}
+\setbeamercolor{block body}{fg=black,bg=bgrey3}
+
+
+\mode
+<all>

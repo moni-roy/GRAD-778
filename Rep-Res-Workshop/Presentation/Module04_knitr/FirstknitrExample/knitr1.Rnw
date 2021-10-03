@@ -1,0 +1,30 @@
+\documentclass{article}
+
+
+\title{My First \texttt{knitr} Document}
+\author{Jane Doe}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Hello world!
+
+\section{Methods}
+\subsection{Equation 1}
+\subsubsection{R code chunk}
+
+            <<>>=
+set.seed(2020)
+library(knitr)
+output=rnorm(10,55,30)
+          @
+
+\section{Results}
+\subsection{Equation 1}
+The answer to Equation 1 is \Sexpr{mean(output)} 
+
+
+\end{document}
