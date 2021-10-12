@@ -42,15 +42,19 @@ Students will be able to determine what types of computational tools might be us
 
 ## Topics Outline
 
-| Week | Course Title                                  | Link                                                                                      |
-| ---- | --------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| W1   | Data Operations and Programming in R (Part 1) | [R Bootcamp](https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp)                 |
-| W2   | Data Operations and Programming in R (Part 2) | [R Bootcamp](https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp)                 |
-| W3   | Introduction to Linux                         | [Linux Introduction](<https://github.com/moni-roy/GRAD-778/tree/main/Linux Introduction>) |
-| W4   | Documentation and reproducibility             | [Rep-Res-Workshop](https://github.com/moni-roy/GRAD-778/tree/main/Rep-Res-Workshop)       |
-| W5   | C++ Programming                               | [Parallel Programming with Cuda and C++](<https://github.com/moni-roy/GRAD-778/tree/main/Parallel Programming with Cuda and C++>)       |
-| W6   | Introduction to Python                        |                                                                                           |
-| W7   | Batch Processing in Pronghorn                 |                                                                                           |
-| W8   | Advanced Pronghorn Utilization                |                                                                                           |
-| W9   | Cloud Computing                               |                                                                                           |
-| W10  | Version Control                               |                                                                                           |
+| Week | Course Title                                  | Link                                                                                                                              |
+| ---- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| W1   | Labor day weekend (no class)                  |
+| W2   | Data Operations and Programming in R (Part 1) | [R Bootcamp](https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp)                                                         |
+| W3   | Data Operations and Programming in R (Part 2) | [R Bootcamp](https://github.com/moni-roy/GRAD-778/tree/main/R%20BootCamp)                                                         |
+| W4   | Introduction to Linux                         | [Linux Introduction](<https://github.com/moni-roy/GRAD-778/tree/main/Linux Introduction>)                                         |
+| W5   | Documentation and reproducibility             | [Rep-Res-Workshop](https://github.com/moni-roy/GRAD-778/tree/main/Rep-Res-Workshop)                                               |
+| W6   | C++ Programming                               | [Parallel Programming with Cuda and C++](<https://github.com/moni-roy/GRAD-778/tree/main/Parallel Programming with Cuda and C++>) |
+| W7   | Introduction to Python                        |                                                                                                                                   |
+| W8   | Batch Processing in Pronghorn                 |                                                                                                                                   |
+| W9   | Nevada Day Weekend (no class)                 |
+| W10  | Advanced Pronghorn Utilization                |                                                                                                                                   |
+| W11  | Cloud Computing                               |                                                                                                                                   |
+| W12  | Version Control                               |                                                                                                                                   |
+| W13  | Thanksgiving weekend (no class)               |
+| W14  | Wrap-up                                       |
