@@ -1,0 +1,230 @@
+WEBVTT
+
+1
+00:00:02.580 --> 00:00:14.580
+Scott Kelley: Okay, now that you have the software installed and now that you've had a chance to review the overview of the course expectations recommendations, those kinds of things. It's time for Module one
+
+2
+00:00:15.299 --> 00:00:23.940
+Scott Kelley: So the incentive. This module is to give you some experience working with the anaconda navigator main interface.
+
+3
+00:00:24.510 --> 00:00:39.720
+Scott Kelley: Opening up and working with spider and opening up and running your first program examining certain parts of the code and giving you some practice with some of the things that you'll be asked to do starting in the next module, all the way through the end. So let me share my screen.
+
+4
+00:00:42.390 --> 00:00:51.750
+Scott Kelley: Okay. So right away, again, as I mentioned, the instructions. I am a Windows user. So all of the instructions and screenshots, you were seeing will correspond to that environment.
+
+5
+00:00:52.200 --> 00:00:58.350
+Scott Kelley: Still, once again, all of the instruction carry you through no matter what operating system you're working with.
+
+6
+00:00:59.130 --> 00:01:04.920
+Scott Kelley: The one thing I did want to highlight the reason I'm showing this first is that for each of the 12 modules.
+
+7
+00:01:05.370 --> 00:01:14.490
+Scott Kelley: You are seeing script files and instruction files. Those are available, of course, via web campus and of course there are three data sets as well.
+
+8
+00:01:15.390 --> 00:01:26.880
+Scott Kelley: That you will use in module 10 but I think it's a good idea if you have the time now to download each of the script files. Each of the module files and all the data sets.
+
+9
+00:01:27.300 --> 00:01:37.230
+Scott Kelley: And store them in an environment locally that you can quickly access. I think organizing them this way makes sense. But if you have a different system that you'd like to use that's okay too.
+
+10
+00:01:38.070 --> 00:01:47.250
+Scott Kelley: The most important thing is to be able to download an access the script files all 12 of them starting with the first one that will get into in this module, so that you can work with.
+
+11
+00:01:48.600 --> 00:01:50.040
+Scott Kelley: The instructions that have been provided.
+
+12
+00:01:51.060 --> 00:02:03.000
+Scott Kelley: Okay, so you've downloaded Anaconda when you open up Anaconda three you'll see this Anaconda navigator main screen which shows you the host of editors that you now have access to
+
+13
+00:02:04.260 --> 00:02:11.400
+Scott Kelley: These environments tab, which we'll get to later shows the number of packages that come along as well that you can access as needed.
+
+14
+00:02:12.030 --> 00:02:17.580
+Scott Kelley: For now though. What I want you to do with my head out of the way is to launch spider.
+
+15
+00:02:18.510 --> 00:02:26.040
+Scott Kelley: And so you'll click on that button right there to do. So I have 4.1 point for some of you may have 4.1 point five. By the time
+
+16
+00:02:26.760 --> 00:02:35.400
+Scott Kelley: You download the software for this workshop. Either way is fine either should work. When you do, you should get a screen that looks something like this.
+
+17
+00:02:36.390 --> 00:02:46.110
+Scott Kelley: You're Yours may have a temp pie file right over here. But the key things to note here are the scripts that you'll put together here.
+
+18
+00:02:46.830 --> 00:02:55.020
+Scott Kelley: The console where you will be entering in some commands. Maybe the entire script, or maybe certain lines.
+
+19
+00:02:55.500 --> 00:03:02.550
+Scott Kelley: And getting a response here in the console. So when I note the console in the instructions. This is certainly the area I'm talking about
+
+20
+00:03:03.240 --> 00:03:08.550
+Scott Kelley: Another thing to at least notice now that you'll get into later on these four tabs here variable explorer.
+
+21
+00:03:09.000 --> 00:03:15.990
+Scott Kelley: Help plots and files. And again, for those of you that have worked with our studio this interface will start to look familiar.
+
+22
+00:03:16.650 --> 00:03:24.990
+Scott Kelley: One thing I would like to point out quickly though is that my screenshots that show throughout all the instructions documents what I'm doing.
+
+23
+00:03:25.440 --> 00:03:32.670
+Scott Kelley: In spider might look a little different. So those have been set by going to tools and preferences.
+
+24
+00:03:33.330 --> 00:03:42.750
+Scott Kelley: And then appearance. I usually use the spider dark syntax highlighting theme that's just personal preference. You can see there are a whole host of wants to choose from.
+
+25
+00:03:43.260 --> 00:03:51.000
+Scott Kelley: But this should start looking more and more like some of the screenshots that you'll see throughout the instructions documents. Okay.
+
+26
+00:03:51.750 --> 00:04:07.860
+Scott Kelley: So the first thing to do is to come over here and click the Open File button and navigate to wherever you save your first program file. So you'll notice I have to wade through my whole system here we go to workshop
+
+27
+00:04:09.450 --> 00:04:13.890
+Scott Kelley: And that first program file is what you've done. So download that from web campus.
+
+28
+00:04:15.030 --> 00:04:26.280
+Scott Kelley: All right. And when you open it you should see something like this. And this is one of the two scripts that I've given you that is designed to be run entirely at once right again.
+
+29
+00:04:27.000 --> 00:04:39.930
+Scott Kelley: Scripts to through 11 contain snippets that you'll work through intermittently. But for now, if you do ever want to run a full program when you work in the spider. You can click this green button here or f5 on the Windows keyboard.
+
+30
+00:04:41.430 --> 00:04:46.140
+Scott Kelley: And you'll see that my program has no run. I've got stuff showing up here in the variable explorer.
+
+31
+00:04:46.800 --> 00:04:53.850
+Scott Kelley: And most importantly, over here in the console. I now have something associated with the output or an input.
+
+32
+00:04:54.690 --> 00:05:07.530
+Scott Kelley: For for that particular operation. So I've run this whole file the script file and the output our statements 5432 and one and a couple print statements and those are associated with print statements over here.
+
+33
+00:05:08.550 --> 00:05:17.970
+Scott Kelley: So we'll get into what all of these individual things mean. But the key thing to notice right away is that the spider editor is showing different colors and formatting for different data types.
+
+34
+00:05:18.360 --> 00:05:26.910
+Scott Kelley: So we can see that in green here, we have string data denoted by a double quotes and as well soon see can also be noted by single quotes on either an
+
+35
+00:05:27.540 --> 00:05:41.190
+Scott Kelley: Orange text is highlighting built in functions print is one of the built in functions of Python. More on that later. The wild statement here signals a an indefinite loop in this case and that is purple.
+
+36
+00:05:42.540 --> 00:05:53.820
+Scott Kelley: Will see that some of the variables. I've set here Z showing up in white and numeric data in this case integers or flow data showing up here in yellow.
+
+37
+00:05:55.830 --> 00:06:01.020
+Scott Kelley: We don't really need to understand the full context of what's happening in this program, although it is relatively simple.
+
+38
+00:06:01.470 --> 00:06:11.190
+Scott Kelley: At a high level, we're just setting a variable, this case you can see it's an integer data sets equal to six. And then I have this silly little loop that says okay
+
+39
+00:06:11.820 --> 00:06:15.810
+Scott Kelley: While z is greater than one and six is greater than one, do something
+
+40
+00:06:16.350 --> 00:06:35.070
+Scott Kelley: And in this case, what that does is these past in here. And then I take six and I subtract one from it and I print. So the first time it steps through that makes five nauseam becomes five. Now I subtract one from five and I print the value again until it cycles down to zero.
+
+41
+00:06:36.840 --> 00:06:40.530
+Scott Kelley: Because the wild statement is conditionally run Wednesday is greater than one.
+
+42
+00:06:41.580 --> 00:06:58.920
+Scott Kelley: And so the last time is these passing here that means it's too. Okay, so then after the the loop is complete and 5432 and one of in France, and thanks to this print statement here too simple print statements below. Let's go. Oh, and hello world show up.
+
+43
+00:07:00.120 --> 00:07:09.120
+Scott Kelley: But the key things to notice here are the line numbers. So throughout all of the modules and the instructions for each for each module from this point forward.
+
+44
+00:07:09.660 --> 00:07:15.000
+Scott Kelley: I say things in the instructions like run line x or run groups of lines. Well, let me show you how to do that.
+
+45
+00:07:15.480 --> 00:07:19.680
+Scott Kelley: This green button is not something you'll commonly use again throughout this this workshop
+
+46
+00:07:20.340 --> 00:07:28.050
+Scott Kelley: So let's say for example my instruction set to only run line six, which sets the variable is equal to six, a couple ways you can do that.
+
+47
+00:07:28.560 --> 00:07:39.510
+Scott Kelley: You can hit this button here which says run selection or current line. In my case, if the instruction set to only run the current lineup be valid. So you can simply click it, you see over here and the input.
+
+48
+00:07:40.590 --> 00:07:47.640
+Scott Kelley: Is equal to six no error messages were tripped and I'm ready for the next command. I could also highlight the code like that.
+
+49
+00:07:48.090 --> 00:07:58.170
+Scott Kelley: And run it accordingly or or hit F nine on my keyboard in the windows. But if I ever have a loop like this. I'll probably ask you to select and run multiple lines of code.
+
+50
+00:07:58.590 --> 00:08:04.410
+Scott Kelley: So here I can say highlight and run line six through nine, or I would instructions by say simply
+
+51
+00:08:05.010 --> 00:08:11.160
+Scott Kelley: Run line six through nine highlight as I just did. And then you could either hit F9 on the keyboard for Windows or click
+
+52
+00:08:11.730 --> 00:08:20.850
+Scott Kelley: Run selection of current line and you'll see here, the only 5432 and one or Princeton, because only this snippet of code was run lines 10 and 11 word not
+
+53
+00:08:21.360 --> 00:08:29.700
+Scott Kelley: So get used to doing that, especially running those either individual lines or groups of lines per the instructions for each module.
+
+54
+00:08:30.510 --> 00:08:44.400
+Scott Kelley: Beyond that, feel free to experiment, you can change some of the display preferences, feel free to explore around with the help the plots the files tab is the plots tab will come into play. Soon, or at least we get to the place we're making them.
+
+55
+00:08:46.920 --> 00:08:54.870
+Scott Kelley: So yeah, that's your first program you can save this. You can modify it and that is the very first one that you will have built in Python.
+
+56
+00:08:55.500 --> 00:09:06.690
+Scott Kelley: Okay, so when you feel comfortable being able to identify it run individual lines or groups of lines when you feel comfortable understanding the basics of the spider interface, at least for now.
+
+57
+00:09:07.110 --> 00:09:21.870
+Scott Kelley: Again, this is the console. This is the script file and these are the line numbers and those will be helpful to identify as you start to work through the modules. So after that point you're ready to move on to module two, we'll start working with a detailed instructions.
+

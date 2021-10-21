@@ -1,0 +1,126 @@
+WEBVTT
+
+1
+00:00:02.070 --> 00:00:11.580
+Scott Kelley: Hi everyone and welcome to the introduction to Python workshop module seven that is part of the grad 778 course in which you are enrolled.
+
+2
+00:00:12.599 --> 00:00:18.720
+Scott Kelley: I wanted to give a quick introduction to the workshop, a little bit about myself and a little bit about what's going to be expected of you.
+
+3
+00:00:20.280 --> 00:00:23.280
+Scott Kelley: As a bit of an intro. My name is Scott Kelly, of course.
+
+4
+00:00:24.510 --> 00:00:44.250
+Scott Kelley: I am assistant professor in the Department of Geography from a research standpoint, I'm interested in emerging transportation technologies and services and how those integrate into urban areas, how the public perceives and interacts with them and how they conduct travel if they are
+
+5
+00:00:45.720 --> 00:00:52.890
+Scott Kelley: A lot of my work then looks at large data sets that include human mobility human travel behavior.
+
+6
+00:00:53.400 --> 00:01:07.230
+Scott Kelley: Those kinds of things. And so for me, I thought has been a pretty important part of my research workflow. That's just one example, though, as you're no doubt aware of something that could certainly help your own as well on your own discipline.
+
+7
+00:01:08.280 --> 00:01:18.960
+Scott Kelley: Throughout I will try and show broad examples that can touch on course as many disciplines as possible. But if you do see any specific geographic or transportation related examples.
+
+8
+00:01:20.040 --> 00:01:22.260
+Scott Kelley: There's a certain point at which we teach what we know.
+
+9
+00:01:24.060 --> 00:01:34.590
+Scott Kelley: So with that, let's get into a little bit about what you'll be doing here in this workshop for the next two weeks. These modules and there are 12 that comprise this larger module.
+
+10
+00:01:35.250 --> 00:01:47.220
+Scott Kelley: Are available for you to start working through all of them include two key components. Number one, a detailed instruction document in PDF form that you access here on web campus.
+
+11
+00:01:47.700 --> 00:01:58.140
+Scott Kelley: please download that review it as you begin each of the individual 12 modules associated with that will be a script file.
+
+12
+00:01:59.310 --> 00:02:10.530
+Scott Kelley: Now 10 of the 12 script files are intentionally designed to not all be run at once. Two of them are the ones that are the first and the last and we'll, we'll talk about those. When we get
+
+13
+00:02:11.550 --> 00:02:24.810
+Scott Kelley: But just keep in mind that the 10 components for modules to through 11 involve you working with smaller snippets of code running little pieces and seeing what happens when you do an interactive manner.
+
+14
+00:02:25.260 --> 00:02:31.860
+Scott Kelley: For those that have worked with our studio before and I assume many of you that are enrolling in this half but not entirely. Everyone
+
+15
+00:02:32.670 --> 00:02:43.560
+Scott Kelley: The interface, the editor that will be working with spider which comes with the software will download should look pretty familiar. It was chosen to be something that would be as familiar as possible to me.
+
+16
+00:02:44.670 --> 00:03:00.600
+Scott Kelley: And a note on sort of expectations. As I said in the introduction, way back in August, the audience of this workshop, are those of you that have very limited or sometimes no experience with Python. If that applies to you, you're in the right place.
+
+17
+00:03:02.220 --> 00:03:11.550
+Scott Kelley: These instructions will introduce you to concepts that you should be familiar with, as you start to work with Python, along with the assignments themselves so
+
+18
+00:03:12.090 --> 00:03:20.280
+Scott Kelley: Before you dive into the modules. I want you to review to two documents. Let me share my screen and show what will be expected of you.
+
+19
+00:03:22.950 --> 00:03:29.370
+Scott Kelley: So the first thing, please read and review this software download instructions PDF, which you should see
+
+20
+00:03:29.760 --> 00:03:40.410
+Scott Kelley: And that will give you detailed instructions for what to download how to do it and there will be instructions LinkedIn instructions that show you how to handle this for different operating systems.
+
+21
+00:03:41.220 --> 00:03:47.670
+Scott Kelley: The second thing after you're done with software installation. That is the first thing you should do. After watching this video.
+
+22
+00:03:48.360 --> 00:04:02.010
+Scott Kelley: The next thing you should do is to review the workshop outline and tips. So this will tell you my general expectations of you what you should expect to see and what the modules all contain
+
+23
+00:04:02.580 --> 00:04:09.840
+Scott Kelley: So I did cover these two concepts, but this will allow you to do it, sort of, it's your own time. And here's some best tips and practices.
+
+24
+00:04:10.740 --> 00:04:16.800
+Scott Kelley: The upshot is this all of these things are ready to go online and ready for you to work with.
+
+25
+00:04:17.400 --> 00:04:22.860
+Scott Kelley: So you should be able to complete this entire workshop at your own pace. Over the next two weeks.
+
+26
+00:04:23.400 --> 00:04:33.750
+Scott Kelley: Ideally, for some of you, you'll be able to work through everything and upload your deliverable without once having the login to zoom or seek out, but we also understand the questions are going to arise, inevitably, they do.
+
+27
+00:04:34.410 --> 00:04:43.110
+Scott Kelley: That's what makes working in this remote environment, a bit challenging. So as, but feel free to contact me or two days through email.
+
+28
+00:04:43.500 --> 00:04:56.970
+Scott Kelley: And on Saturday, October 17 scheduled day of our workshop. The first three hours, nine to noon I will be online and available treat them as basically office hours, you have questions that arose as we're working through these modules.
+
+29
+00:04:57.390 --> 00:05:04.800
+Scott Kelley: That's a great time to get clarification. Your deliverable which can be access. As noted here in module 10
+
+30
+00:05:06.060 --> 00:05:16.440
+Scott Kelley: That will be due at 4pm on Saturday, October 17 okay so go download the software review this document to get a sense of what's coming, and
+
+31
+00:05:17.460 --> 00:05:18.240
+Scott Kelley: Good luck.
+
