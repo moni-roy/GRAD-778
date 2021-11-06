@@ -53,7 +53,7 @@ Students will be able to determine what types of computational tools might be us
 | W7   | Introduction to Python                        | [Intro To Python](<https://github.com/moni-roy/GRAD-778/tree/main/Intro To Python>)                                               |
 | W8   | Batch Processing in Pronghorn                 | [Intro Pronghorn Module](<https://github.com/moni-roy/GRAD-778/tree/main/Intro Pronghorn Module>)                                 |
 | W9   | Nevada Day Weekend (no class)                 |
-| W10  | Advanced Pronghorn Utilization                |                                                                                                                                   |
+| W10  | Advanced Pronghorn Utilization                | [Advanced Pronghorn Utilization](<https://github.com/moni-roy/GRAD-778/tree/main/Advanced Utilization of Pronghorn>)                                                                                                                                  |
 | W11  | Cloud Computing                               |                                                                                                                                   |
 | W12  | Version Control                               |                                                                                                                                   |
 | W13  | Thanksgiving weekend (no class)               |
