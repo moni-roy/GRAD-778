@@ -1,0 +1,17 @@
+# 3D Lennard-Jones Example 
+units 		   metal
+atom_style	   atomic
+boundary	   p p p
+region		   simbox block 0 100 0 100 0 100
+create_box	   1 simbox
+create_atoms	   1 random 10000 432 NULL
+mass		   1 1
+pair_style	   lj/cut 10
+pair_coeff	   * * 1.0 1.0 
+timestep	   1e-5
+minimize 	   0 1.0e-4 2000 100000
+reset_timestep	   0
+velocity	   all create 1000 8675309 dist gaussian
+fix		   1 all nve
+thermo		   1000
+run		   5000

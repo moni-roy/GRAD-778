@@ -1,0 +1,100 @@
+LAMMPS (30 Jul 2021)
+  using 2 OpenMP thread(s) per MPI task
+Created orthogonal box = (0.0000000 0.0000000 0.0000000) to (100.00000 100.00000 100.00000)
+  2 by 2 by 4 MPI processor grid
+Created 10000 atoms
+  using lattice units in orthogonal box = (0.0000000 0.0000000 0.0000000) to (100.00000 100.00000 100.00000)
+  create_atoms CPU = 0.001 seconds
+WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (src/min.cpp:189)
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 12
+  ghost atom cutoff = 12
+  binsize = 6, bins = 17 17 17
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 0
+Per MPI rank memory allocation (min/avg/max) = 5.161 | 5.164 | 5.169 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0            0 8.3678071e+12            0 8.3678071e+12 5.3626834e+13 
+    2000            0   -8931.4287            0   -8931.4287   -120.26142 
+Loop time of 2.62827 on 32 procs for 2000 steps with 10000 atoms
+
+101.7% CPU use with 16 MPI tasks x 2 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = max iterations
+  Energy initial, next-to-last, final = 
+      8367807065361.77  -8929.38367118586  -8931.42869558554
+  Force two-norm initial, final = 1.5096653e+15 16.305053
+  Force max component initial, final = 8.1047022e+14 2.8171684
+  Final line search alpha, max atom move = 0.018785138 0.052920897
+  Iterations, force evaluations = 2000 3989
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 1.5514     | 1.8503     | 2.2421     |  12.5 | 70.40
+Neigh   | 0.03527    | 0.039917   | 0.044089   |   1.1 |  1.52
+Comm    | 0.23024    | 0.5861     | 0.84346    |  22.9 | 22.30
+Output  | 8.1836e-05 | 8.4323e-05 | 0.00010948 |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.1519     |            |       |  5.78
+
+Nlocal:        625.000 ave         679 max         565 min
+Histogram: 1 1 0 3 2 4 1 0 3 1
+Nghost:        2034.38 ave        2126 max        1964 min
+Histogram: 1 0 6 1 2 1 3 0 1 1
+Neighs:        22561.8 ave       26205 max       19327 min
+Histogram: 1 2 1 3 2 3 0 3 0 1
+
+Total # of neighbors = 360988
+Ave neighs/atom = 36.098800
+Neighbor list builds = 32
+Dangerous builds = 0
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 1e-05
+Per MPI rank memory allocation (min/avg/max) = 4.036 | 4.039 | 4.044 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1000   -8931.4287            0   -7638.9565     1260.251 
+    1000    884.88607   -8782.6423            0   -7638.9516    880.54413 
+    2000    903.05695   -8806.1278            0   -7638.9518    798.00404 
+    3000    964.85037   -8885.9952            0   -7638.9529    673.09689 
+    4000    1051.7323   -8998.2882            0   -7638.9535      653.366 
+    5000    1137.9239   -9109.6891            0    -7638.954    512.42152 
+Loop time of 2.19278 on 32 procs for 5000 steps with 10000 atoms
+
+Performance: 1.970 ns/day, 12.182 hours/ns, 2280.208 timesteps/s
+99.4% CPU use with 16 MPI tasks x 2 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 1.3322     | 1.5365     | 1.781      |   9.4 | 70.07
+Neigh   | 0.0076574  | 0.0085546  | 0.0094745  |   0.5 |  0.39
+Comm    | 0.31904    | 0.55565    | 0.74819    |  15.7 | 25.34
+Output  | 0.000218   | 0.00028362 | 0.0004407  |   0.0 |  0.01
+Modify  | 0.030068   | 0.033221   | 0.035925   |   0.8 |  1.52
+Other   |            | 0.05859    |            |       |  2.67
+
+Nlocal:        625.000 ave         674 max         572 min
+Histogram: 2 0 2 0 3 3 3 0 1 2
+Nghost:        2034.44 ave        2169 max        1953 min
+Histogram: 3 1 4 2 1 1 2 1 0 1
+Neighs:        22557.1 ave       26233 max       19744 min
+Histogram: 2 2 0 4 2 2 1 1 1 1
+
+Total # of neighbors = 360913
+Ave neighs/atom = 36.091300
+Neighbor list builds = 7
+Dangerous builds = 0
+Total wall time: 0:00:04
