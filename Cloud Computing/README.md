@@ -1,4 +1,4 @@
-# W11 (Saturday 11/13): "Cloud Computing"
+# W11 (Saturday 11/13): Cloud Computing
 
 ## Lead: Engin Arslan (CSE)
 
