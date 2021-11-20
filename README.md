@@ -55,6 +55,6 @@ Students will be able to determine what types of computational tools might be us
 | W9   | Nevada Day Weekend (no class)                 |
 | W10  | Advanced Pronghorn Utilization                | [Advanced Pronghorn Utilization](<https://github.com/moni-roy/GRAD-778/tree/main/Advanced Utilization of Pronghorn>)              |
 | W11  | Cloud Computing                               | [Cloud Computing](<https://github.com/moni-roy/GRAD-778/tree/main/Cloud Computing>)                                               |
-| W12  | Version Control                               |                                                                                                                                   |
+| W12  | Version Control                               | [Version Control](<https://github.com/moni-roy/GRAD-778/tree/main/Version Control>)                                               |
 | W13  | Thanksgiving weekend (no class)               |
 | W14  | Wrap-up                                       |
